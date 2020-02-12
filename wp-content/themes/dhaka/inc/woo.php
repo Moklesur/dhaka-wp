@@ -34,5 +34,47 @@ function themetim_header_add_to_cart_fragment( $fragments ) {
     $fragments['a.cart-contents'] = ob_get_clean();
 
     return $fragments;
+}
 
+/**
+ * Gallery WC Support
+ */
+function dhaka_gallery_thumns_wc_support() {
+
+    add_theme_support( 'woocommerce', array(
+        'gallery_thumbnail_image_width' => 600,
+    ) );
+    add_theme_support( 'wc-product-gallery-lightbox' );
+}
+add_action( 'after_setup_theme', 'dhaka_gallery_thumns_wc_support' );
+
+
+/**
+ * Opening div for our content wrapper
+ */
+add_action('woocommerce_before_main_content', 'dhaka_open_div', 5);
+
+function dhaka_open_div() {
+    echo '<div class="container"><div class="col-lg-12 col-md-12 col-xs-12" >';
+}
+
+/**
+ * Closing div for our content wrapper
+ */
+add_action('woocommerce_after_main_content', 'dhaka_close_div', 50);
+
+function dhaka_close_div() {
+    echo '</div></div>';
+}
+
+/**
+ * Added Row
+ */
+add_action( 'woocommerce_before_single_product_summary', 'dhaka_product_wrapper_start', 1 );
+function dhaka_product_wrapper_start() {
+    echo '<div class="row">';
+}
+add_action( 'woocommerce_after_single_product_summary', 'dhaka_product_wrapper_end', 1 );
+function dhaka_product_wrapper_end() {
+    echo '</div>';
 }
