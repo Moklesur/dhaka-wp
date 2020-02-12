@@ -1,0 +1,47 @@
+/********************************************************
+  Theme Info Style
+********************************************************/
+.theme-info{
+    background: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.col-theme-info{
+    width: 47%;
+    margin: 1%;
+    float: left;
+    background: #fbfbfb;
+    padding: 50px 0;
+    border-radius: 4px;
+}
+.col-theme-info a:hover,.col-theme-info a:focus{
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+.col-theme-info a{
+    margin-top: 10px;
+    font-size: 18px;
+    display: block;
+    outline: none;
+    text-decoration: none;
+}
+.info-title{
+    margin-top: 0;
+    line-height: 1.6;
+    font-size: 36px;
+}
+.theme-info .dashicons,.theme-info .dashicons-before:before{
+    color: #ff8871;
+    font-size: 3em;
+    width: inherit;
+    height: inherit;
+}
+@media only screen and (max-width:767px) {
+    .col-theme-info{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

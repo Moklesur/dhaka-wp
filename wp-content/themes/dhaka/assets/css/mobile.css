@@ -1,0 +1,205 @@
+/********************************************************
+  Mobile Devices
+********************************************************/
+
+/********************************************************
+        ## Min Width 1200px
+********************************************************/
+@media (min-width: 1200px) {
+}
+/********************************************************
+        ## Min Width 992px And Max Width 1199px
+********************************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/********************************************************
+        ## Min Width 768px And Max Width 991px
+********************************************************/
+@media (min-width: 768px) and (max-width: 991px){
+    .header-social {
+        margin-left: 5px;
+    }
+    .primary-menu  .navbar-nav>li>a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .camera-slider-inner h1{
+        font-size: 36px;
+    }
+    .camera-slider-inner h3{
+        font-size: 24px;
+    }
+    .camera-slider-inner.text-right{
+        padding-right: 7%;
+    }
+    .camera-slider-inner.text-left{
+        padding-left: 7%;
+    }
+    .camera_target_content {
+        top: 22%;
+    }
+}
+/********************************************************
+        ## Max Width 767px
+********************************************************/
+@media only screen and (max-width:767px) {
+    .cart-icon:hover .mini-cart{
+        display: none;
+    }
+    .woocommerce table.shop_table td {
+        padding: 12px 12px;
+    }
+    .post-items > .entry-thumb{
+        margin: 0;
+    }
+    .primary-menu .collapse{
+        float: none;
+        overflow: hidden;
+        padding: 0 15px;
+        border-top: 0;
+        box-shadow: none;
+        background: none;
+        width: 100%;
+    }
+    .primary-menu  .navbar-collapse, .primary-menu  .navbar-form{
+        border-top: 0;
+        box-shadow: none;
+        background: none;
+    }
+    .primary-menu  .navbar-nav>li>a{
+        padding: 10px 0;
+        border: 0;
+    }
+    .primary-menu .navbar-nav{
+        margin-top: 30px;
+    }
+    .primary-menu .navbar-nav>li>a::after{
+        display: none;
+    }
+    .primary-menu .xs-angle-down {
+        margin: -8px 0 0 0;
+        padding: 4px 10px;
+        background: #ff8871;
+        float: right;
+        color: #fff;
+        font-size: 22px;
+    }
+    .primary-menu ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: none;
+    }
+    .primary-menu ul.nav li.dropdown > ul.dropdown-menu.active {
+        display: block;
+        box-shadow: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .primary-menu .dropdown-menu {
+        width: auto;
+        float: none;
+        position: static;
+    }
+    .header-fixed{
+        padding-bottom: 8px;
+        padding-top: 10px;
+    }
+    .navbar-fix button{
+        margin: 14px 0 0 15px;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-toggle{
+        border-color: #ff8871;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #ff8871;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background-color: #ff8871;
+    }
+    .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
+        background-color: #fff;
+    }
+    .camera-slider-inner h1{
+        font-size: 36px;
+    }
+    .camera-slider-inner h3{
+        font-size: 30px;
+    }
+    .camera-slider-inner.text-center {
+        padding: 0 30px;
+    }
+    .camera_wrap{
+        height: 350px;
+    }
+    .navbar-fix{
+        float: right;
+    }
+    .primary-menu  .navbar-collapse,.woocommerce .woocommerce-ordering select,.woocommerce .woocommerce-ordering{
+        width: 100%;
+    }
+}
+/********************************************************
+        ## Max Width 480px
+********************************************************/
+@media only screen and (max-width:480px) {
+    .header-fixed {
+        padding-bottom: 20px;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-page[class*=columns-] ul.products li.product, .woocommerce[class*=columns-] ul.products li.product{
+        width: 100%;
+    }
+    .camera-slider-inner.text-center {
+        padding: 0 10px;
+    }
+    .logo{
+        float: none !important;
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        text-align: center;
+    }
+    .cart-icon {
+        position: absolute;
+        right: 70px;
+        padding-top: 5px;
+    }
+    .cart-icon a{
+        border-left:0
+    }
+    .navbar-default .navbar-toggle{
+        margin-top: 0;
+    }
+    .header-social {
+        position: absolute;
+        right: auto;
+        margin: 0;
+        padding-top: 0;
+    }
+    .camera-slider-inner h1{
+        font-size: 24px;
+    }
+    .camera-slider-inner h3{
+        font-size: 18px;
+    }
+    .camera_target_content{
+        top: 10%;
+    }
+    .camera-slider-inner.text-left{
+        padding-left: 15px;
+    }
+    .camera-slider-inner.text-right{
+        padding-right: 15px;
+    }
+}
+/********************************************************
+        Max Width 320px
+********************************************************/
+@media only screen and (max-width:320px) {
+
+}
+/********************************************************
+        Max Width 240px
+********************************************************/
+@media only screen and (max-width:240px) {
+
+}
