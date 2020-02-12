@@ -55,7 +55,7 @@ add_action( 'after_setup_theme', 'dhaka_gallery_thumns_wc_support' );
 add_action('woocommerce_before_main_content', 'dhaka_open_div', 5);
 
 function dhaka_open_div() {
-    echo '<div class="container"><div class="col-lg-12 col-md-12 col-xs-12" >';
+    echo '<div class="container mt-30"><div class="col-lg-12 col-md-12 col-xs-12" >';
 }
 
 /**
